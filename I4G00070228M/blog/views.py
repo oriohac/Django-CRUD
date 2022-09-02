@@ -21,6 +21,7 @@ class PostCreateView(CreateView):
 
 class PostDetailView(DetailView):
     model = Post
+    
 class PostUpdateView(UpdateView):
     model = Post
     fields = "__all__"
